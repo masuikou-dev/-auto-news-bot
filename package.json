@@ -1,0 +1,21 @@
+{
+  "name": "ai-news-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.1",
+    "google-news-url-decoder": "^1.2.1",
+    "jsdom": "^26.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}

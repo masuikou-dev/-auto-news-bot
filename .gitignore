@@ -1,0 +1,42 @@
+# ===== Node =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Environment =====
+.env
+.env.local
+.env.*
+.env.example
+.env.origin
+
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Cache / temp =====
+content_cache.json
+.cache/
+.tmp/
+temp/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Editor =====
+.vscode/
+.idea/
+
+# ===== GitHub Actions (ローカルでは管理しない) =====
+.github/workflows/
+
+# ===== Build =====
+dist/
+build/
+
+# ===== Optional =====
+*.sqlite
+*.db
